@@ -1,6 +1,6 @@
 # Blockchain
 
-Block Chain Study
+Blockchain Study
 
 [Wiki](https://github.com/KimHunJin/Blockchain/wiki)
 
