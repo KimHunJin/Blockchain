@@ -26,6 +26,8 @@ Blockchain Study
 
 * [비트코인 Developer Guide](https://bitcoin.org/en/developer-guide#proof-of-work)
 
+* [51어택](https://ethereum.stackexchange.com/questions/545/security-measures-to-overcome-51-attack)
+
 ## 연습링크
 
 * [Ethereum](https://ethereum.github.io/browser-solidity/#optimize=false&version=soljson-v0.4.20+commit.3155dd80.js)
