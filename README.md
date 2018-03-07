@@ -13,6 +13,9 @@ Blockchain Study
 
 이러한 내용을 다룰 것이며 검색을 통해 참고를 많이 했습니다.
 
+## 개인 공부 링크 (Wiki)
+1. [비트코인](https://github.com/KimHunJin/Blockchain/wiki/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8)
+
 ## 참고링크
 
 * [Java로 이해하는 블록체인](http://guruble.com/java-%EC%BD%94%EB%93%9C%EB%A1%9C-%EC%9D%B4%ED%95%B4%ED%95%98%EB%8A%94-%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8blockchain/)
