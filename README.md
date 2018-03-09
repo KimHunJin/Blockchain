@@ -31,6 +31,8 @@ Blockchain Study
 
 * [51어택](https://ethereum.stackexchange.com/questions/545/security-measures-to-overcome-51-attack)
 
+* [참조 클라이언트 bitcoind](https://en.bitcoin.it/wiki/Bitcoind#cite_note-1)
+
 ## 연습링크
 
 * [Ethereum](https://ethereum.github.io/browser-solidity/#optimize=false&version=soljson-v0.4.20+commit.3155dd80.js)
