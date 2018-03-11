@@ -17,7 +17,7 @@ Blockchain Study
 1. [비트코인](https://github.com/KimHunJin/Blockchain/wiki/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8)
 
 ## 발표 내용
-1. [비트코인 발표내용](https://www.slideshare.net/ssuser858e07/bitcoin-presentation-90293926)
+1. [비트코인 발표내용(18.03.11)](https://www.slideshare.net/ssuser858e07/bitcoin-presentation-90293926)
 
 ## 참고링크
 
