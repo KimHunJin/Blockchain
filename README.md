@@ -14,9 +14,11 @@ Blockchain Study
 이러한 내용을 다룰 것이며 검색을 통해 참고를 많이 했습니다.
 
 ## 개인 공부 링크 (Wiki)
-1. [비트코인](https://github.com/KimHunJin/Blockchain/wiki/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8)
+1. [비트코인 1~2](https://github.com/KimHunJin/Blockchain/wiki/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-(chapter1,-2))
 
-2. [고이더리움 설치하기](https://github.com/KimHunJin/Blockchain/wiki/%EA%B3%A0-%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0-in-Windows10-(install-go-ethereum-in-windows10))
+2. [비트코인 3~4](https://github.com/KimHunJin/Blockchain/wiki/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-(chapter3,-4))
+
+3. [고이더리움 설치하기](https://github.com/KimHunJin/Blockchain/wiki/%EA%B3%A0-%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0-in-Windows10-(install-go-ethereum-in-windows10))
 
 ## 발표 내용
 1. [비트코인 발표내용(18.03.11)](https://www.slideshare.net/ssuser858e07/bitcoin-presentation-90293926)
