@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta http-equiv="X-UA-Comaptible" content="ie-edge">
+        <title>document</title>
+		<script src = "./node_modules/web3/dist/web3.min.js"></script>
+		
+		<style type="text/css">
+			#loader {display:none};
+		</style>
+		
+    </head>
+
+    <body>
+
+        <div class = "container">
+			<h1>Coursetro Instructor</h1>
+			<p>Owner Address : <span id="owner"></span></p>
+			
+			<img id = "loader" src="https://loading.io/spinners/double-ring/lg.double-ring-spinner.gif">
+
+			<h2 id ="instructor"></h2>
+			<span id = "insTrans"></span>
+			<hr>
+
+			<input type="text" id="fname">
+            <input type="text" id="lname">
+            <input type="text" id="age">
+
+            <button id="button">update</button>
+        </div>
+
+		<script src= "https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+
+
+		<script>
+			if(typeof web3 != 'undefined') {
+				web3 = new Web3(web3.currentProvideter);
+			} else {
+				web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+			}
+
+			web3.eth.defaultAccount = web3.eth.accounts[0];
+
+			var CoursetroContract = web3.eth.contract([
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "getInstructor",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			},
+			{
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"indexed": false,
+				"name": "age",
+				"type": "uint256"
+			}
+		],
+		"name": "Instructor",
+		"type": "event"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "_name",
+				"type": "string"
+			},
+			{
+				"name": "_age",
+				"type": "uint256"
+			}
+		],
+		"name": "setInstructor",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	}
+]);
+
+		var Coursetro = CoursetroContract.at('0x8be5c71327aa1ab9588fbff82c7a26c97ec010b9');
+
+		console.log(Coursetro);
+
+		var instructorEvent = Coursetro.InstructorInfo({}, 'latest');
+
+		instructorEvent.watch(function(error, result) {
+			if(!error) {
+				if(result.blockHash != $("#insTrans").html()) {
+					$("#loader").hide();
+					$("#insTrans").html('block hash: ' + web3.toAscii(args.age) + 'year old');
+					$("#instructor").html(web3.toAscii(result.args.name) +  ' (' + web3.toAscii(args.age) + 'years old)');
+				}
+				console.log(result.args.name);
+			} else {
+				$("#loader").hide();
+				console.log(error);
+			}
+		})
+
+		Coursetro.countInstructors((err , res) => {
+			if(res) {
+				$("#countIns").html(res.c + ' Instructors');
+			}
+		})
+
+		$("#button").click(function() {
+			console.log($("#name").val());
+			console.log($("#age").val());
+			$("#loader").show();
+			Coursetro.setInstructor(web3.eth.defaultAccount,$("#age").val(), $("#fname").val(), $("#lname").val(), (err, res) => {
+				if(err) {
+					$("#loader").hide();
+					console.log('o n');
+				}
+			});
+
+		});
+
+		</script>
+		
+    </body>
+</html>
