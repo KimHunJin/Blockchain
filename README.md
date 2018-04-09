@@ -50,6 +50,9 @@ Blockchain Study
 
 * [Ethereum](https://ethereum.github.io/browser-solidity/#optimize=false&version=soljson-v0.4.20+commit.3155dd80.js)
 
+* [블록체인 이더리움 솔리디티 튜토리얼 영상](https://www.youtube.com/watch?v=KU6bvciWgRE&list=PL0lNJEnwfVVMuX2Ds19Wj_7Mcze3FDJr3)
+
+* [이더리움 솔리디티 실습 튜토리얼](https://programmers.co.kr/learn/courses/36)
 
 ## 추천 책
 * [비트코인, 블록체인과 금융의 혁신](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=68407419)
