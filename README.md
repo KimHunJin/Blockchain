@@ -40,6 +40,8 @@ Blockchain Study
 
 * [비트코인 Developer Guide](https://bitcoin.org/en/developer-guide#proof-of-work)
 
+* [비트코인 정보](https://btc.com/stats)
+
 * [51어택](https://ethereum.stackexchange.com/questions/545/security-measures-to-overcome-51-attack)
 
 * [참조 클라이언트 bitcoind](https://en.bitcoin.it/wiki/Bitcoind#cite_note-1)
