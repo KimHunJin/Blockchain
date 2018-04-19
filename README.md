@@ -20,6 +20,8 @@ Blockchain Study
 
 3. [고이더리움 설치하기](https://github.com/KimHunJin/Blockchain/wiki/%EA%B3%A0-%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0-in-Windows10-(install-go-ethereum-in-windows10))
 
+4. [OpenStack Blockchain](https://github.com/KimHunJin/Blockchain/wiki/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%98%A4%ED%94%88%EC%8A%A4%ED%83%9D)
+
 ## 발표 내용
 1. [비트코인 발표내용(18.03.11)](https://www.slideshare.net/ssuser858e07/bitcoin-presentation-90293926)
 
